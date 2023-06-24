@@ -1,0 +1,51 @@
+*{
+    background-color: #1A1A1C;
+    color: white;
+}
+.mainContainer{
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#1A1A1C;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    position: relative;
+    top: 50px;
+}
+.button input{
+    width: 185px;
+}
+.button input, .button .mkt, .button .per{
+    color: white;
+}
+.mainContainer:hover{
+    border: 1px solid yellow;
+}
+table:hover{
+    border: 1px solid blue;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin: auto;
+    top: 2%;
+    bottom: 10%;
+    color: white;
+}
+tr{
+    border-bottom: 1px solid gray;
+}
+td img {
+    max-width: 40px; /* Adjust the max-width value as needed */
+    max-height: 40px; /* Adjust the max-height value as needed */
+    text-align: center;
+  }
